@@ -1,4 +1,6 @@
 <?php 
+//this is cron it automaticly called on some certain conditions
+
 
 if (!defined('BASEPATH')) exit('No direct script access allowed');
 
