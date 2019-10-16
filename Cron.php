@@ -136,6 +136,7 @@ class Cron extends CI_Controller
         }
     }
 
+    //this cron notification execute if racer disqulified 
     public function racerDisqualified()
     {
         date_default_timezone_set(API_TIME_ZONE);
@@ -209,7 +210,7 @@ class Cron extends CI_Controller
             $this->car->updateData('tbl_race_request', ["id"=>$user->raceRequestId], ['user_race_status'=>'3']);
         }
     }
-
+//this function update race status data and execute when race update
     public function updateRaceStatus()
     {
             $currentDate = date("Y-m-d",strtotime("-1 day"));
