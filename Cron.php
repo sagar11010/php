@@ -1,5 +1,5 @@
 <?php 
-//this is cron it automaticly called on some certain conditions
+//this is cron it automaticly called on some certain conditions. this cronejob run automatic periodically
 
 
 if (!defined('BASEPATH')) exit('No direct script access allowed');
